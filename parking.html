@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Available Parking</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            🅿️ Smart Parking
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="parking.html">Find Parking</a>
+        </nav>
+
+    </header>
+
+
+    <main class="parking-page">
+
+        <h1>Available Parking</h1>
+
+        <p class="page-description">
+            Select a parking location to view available slots.
+        </p>
+
+
+        <div class="parking-container">
+
+
+            <!-- Parking 1 -->
+
+            <div class="parking-card">
+
+                <div class="parking-icon">
+                    🅿️
+                </div>
+
+                <h2>City Mall Parking</h2>
+
+                <p>📍 Sector 14</p>
+
+                <p>
+                    🟢 <strong>5 Slots Available</strong>
+                </p>
+
+                <p>💰 ₹30 / hour</p>
+
+                <button onclick="selectParking('City Mall Parking')">
+                    View Slots
+                </button>
+
+            </div>
+
+
+            <!-- Parking 2 -->
+
+            <div class="parking-card">
+
+                <div class="parking-icon">
+                    🅿️
+                </div>
+
+                <h2>Metro Parking</h2>
+
+                <p>📍 Sector 15</p>
+
+                <p>
+                    🟢 <strong>2 Slots Available</strong>
+                </p>
+
+                <p>💰 ₹40 / hour</p>
+
+                <button onclick="selectParking('Metro Parking')">
+                    View Slots
+                </button>
+
+            </div>
+
+
+            <!-- Parking 3 -->
+
+            <div class="parking-card">
+
+                <div class="parking-icon">
+                    🅿️
+                </div>
+
+                <h2>Market Parking</h2>
+
+                <p>📍 Sector 17</p>
+
+                <p>
+                    🔴 <strong>Parking Full</strong>
+                </p>
+
+                <p>💰 ₹25 / hour</p>
+
+                <button class="disabled-button" disabled>
+                    Full
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Smart Parking Finder | Student Project
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
